@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import sinon from 'sinon';
+import * as sinon from 'sinon';
 import { Model } from 'mongoose';
 import CarRep from '../../../src/repo/CarRep';
 import CarService from '../../../src/Services/CarService';
